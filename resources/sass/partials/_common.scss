@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// :::::::::: COMMON TAGS ::::::::::
+
+h2 {
+  font-size: 70px;
+  line-height: 90px;
+  padding-bottom: 50px;
+  font-family: "Lato";
+
+  span {
+    display: block;
+  }
+}
+
+p {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+a {
+  text-decoration: none;
+}
+
+// :::::::::: COMMON CLASSESS ::::::::::
+
+.myButton {
+  width: 200px;
+  // height: 50px;
+  padding: 10px 25px 12px 25px;
+  border: 2px solid black;
+  font-family: "Lato";
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  transition: 1s;
+
+  &:hover {
+    color: white;
+    background: black;
+    text-decoration: none;
+    transition: 1s;
+  }
+}
