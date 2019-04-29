@@ -18,293 +18,72 @@
 // ::::::::::::::::::::::::::
 
 // iPhone 5 \ iPod Touch \ 320x568px
-
-@media screen and (width: 320px) and (height: 568px) {
+@media screen and (max-width: 359px) {
   h2 {
     font-size: 30px;
-    line-height: 35px;
-    padding: 0 5px 30px 5px;
-  }
-
-  p {
-    font-size: 16px;
-    padding: 0 5px;
-  }
-}
-
-@media screen and (width: 568px) and (height: 320px) {
-  h2 {
-    font-size: 35px;
     line-height: 40px;
-    padding: 10px 5px 10px 5px;
   }
 
   p {
-    font-size: 15px;
-    padding: 0 5px;
+    font-size: 20px;
   }
 }
 
 // Samsung Galaxy S7 \ Samsung Galaxy S7 Edge \ 360x640px
-
-@media screen and (width: 360px) and (height: 640px) {
-  h2 {
-    font-size: 35px;
-    line-height: 46px;
-    padding: 0 5px 45px 5px;
-  }
-
-  p {
-    font-size: 18px;
-    padding: 0 5px;
-  }
-}
-
-@media screen and (width: 640px) and (height: 360px) {
-  h2 {
-    font-size: 40px;
-    line-height: 50px;
-    padding: 10px 5px 10px 5px;
-  }
-
-  p {
-    font-size: 15px;
-    padding: 0 5px;
-  }
-}
-
 // Samsung Galaxy S8 \ Samsung Galaxy S8+ \ 360x740px
-@media screen and (width: 360px) and (height: 740px) {
-  h2 {
-    font-size: 35px;
-    line-height: 46px;
-    padding: 0 5px 75px 5px;
-  }
-
-  p {
-    font-size: 18px;
-    padding: 0 5px;
-  }
-}
-
-@media screen and (width: 740px) and (height: 360px) {
-  h2 {
-    font-size: 40px;
-    line-height: 50px;
-    padding: 10px 5px 10px 5px;
-  }
-
-  p {
-    font-size: 15px;
-    padding: 0 5px;
-  }
-}
-
 // iPhone 6 \ iPhone 6s \ iPhone 7 \ iPhone 8 \ 375x667px
-
-@media screen and (width: 375px) and (height: 667px) {
+// iPhone X \ 375x812px
+@media screen and (min-width: 360px) and (max-width: 410px) {
   h2 {
     font-size: 35px;
     line-height: 45px;
-    padding: 0 5px 65px 5px;
   }
 
   p {
-    font-size: 18px;
-    padding: 0 5px;
-  }
-}
-
-@media screen and (width: 667px) and (height: 375px) {
-  h2 {
-    font-size: 40px;
-    line-height: 50px;
-    padding: 0px 5px 15px 5px;
-  }
-
-  p {
-    font-size: 15px;
-    padding: 0 5px;
-  }
-}
-
-// iPhone X \ 375x812px
-
-@media screen and (width: 375px) and (height: 812px) {
-  h2 {
-    font-size: 36px;
-    line-height: 45px;
-    padding: 0 5px 35px 5px;
-  }
-
-  p {
-    font-size: 19px;
-    padding: 0 5px;
-  }
-}
-
-@media screen and (width: 812px) and (height: 375px) {
-  h2 {
-    font-size: 40px;
-    line-height: 50px;
-    padding: 0px 5px 10px 5px;
-  }
-
-  p {
-    font-size: 18px;
-    padding: 0 5px;
+    font-size: 20px;
   }
 }
 
 // Pixel \ Pixel XL \ Pixel 2 \ Pixel 2 XL \ Nexus 6P \ Nexus 5X \ 411x731px
-
-@media screen and (width: 411px) and (height: 731px) {
-  h2 {
-    font-size: 40px;
-    line-height: 50px;
-    padding: 0 5px 40px 5px;
-  }
-
-  p {
-    font-size: 19px;
-    padding: 0 5px;
-  }
-}
-
-@media screen and (width: 731px) and (height: 411px) {
-  h2 {
-    font-size: 40px;
-    line-height: 50px;
-    padding: 0px 5px 5px 5px;
-  }
-
-  p {
-    font-size: 18px;
-    padding: 0 5px;
-  }
-}
-
 // iPhone 6 Plus \ iPhone 6s Plus \ iPhone 7 Plus \ iPhone 8 Plus \ 414x736px
-@media screen and (width: 414px) and (height: 736px) {
+@media screen and (min-width: 411px) and (max-width: 479px) {
   h2 {
     font-size: 40px;
     line-height: 50px;
-    padding: 0 5px 40px 5px;
   }
 
   p {
-    font-size: 19px;
-    padding: 0 5px;
-  }
-}
-
-@media screen and (width: 736px) and (height: 414px) {
-  h2 {
-    font-size: 40px;
-    line-height: 50px;
-    padding: 0px 5px 5px 5px;
-  }
-
-  p {
-    font-size: 18px;
-    padding: 0 5px;
+    font-size: 22px;
   }
 }
 
 // Samsung Galaxy Note 5 \ LG G5 \ One Plus 3 \ 480x853px
-@media screen and (width: 480px) and (height: 853px) {
+@media screen and (min-width: 480px) and (max-width: 599px) {
   h2 {
     font-size: 45px;
     line-height: 55px;
-    padding: 0 5px 40px 5px;
   }
 
   p {
-    font-size: 20px;
-    padding: 0 5px;
-  }
-}
-
-@media screen and (width: 853px) and (height: 480px) {
-  h2 {
-    font-size: 45px;
-    line-height: 55px;
-    padding: 0px 5px 20px 5px;
-  }
-
-  p {
-    font-size: 20px;
-    padding: 0 5px;
+    font-size: 22px;
   }
 }
 
 // Nexus 7 \ 600x960px
-@media screen and (width: 600px) and (height: 960px) {
-  h2 {
-    font-size: 54px;
-    line-height: 65px;
-    padding: 0 5px 40px 5px;
-  }
-
-  p {
-    font-size: 22px;
-    padding: 0 5px;
-  }
-}
-
-@media screen and (width: 960px) and (height: 600px) {
+@media screen and (min-width: 600px) and (max-width: 767px) {
   h2 {
     font-size: 55px;
     line-height: 65px;
-    padding: 0 5px 40px 5px;
   }
 
   p {
     font-size: 22px;
-    padding: 0 5px;
   }
 }
+
 
 // Nexus 9 \ iPad 3rd & 4th gen \ iPad Air 1 & 2 \ iPad mini \ iPad mini 2 & 3 \ 768x1024px
-@media screen and (width: 768px) and (height: 1024px) {
-  // ok
-}
-
-@media screen and (width: 1024px) and (height: 768px) {
-  h2 {
-    padding: 0 0 40px 0;
-  }
-}
-
 // Samsung Galaxy Tab 10 \ 800x1280px
-@media screen and (width: 800px) and (height: 1280px) {
-  // ok
-}
-
-@media screen and (width: 1280px) and (height: 800px) {
-  h2 {
-    padding: 0 0 40px 0;
-  }
-}
-
 // iPad pro \ 1024x1366px
-@media screen and (width: 1024px) and (height: 1366px) {
-  // ok
-}
-
-@media screen and (width: 1366px) and (height: 1024px) {
-  h2 {
-    padding: 0 0 40px 0;
-  }
-}
-
 // Chromebook pixel \ 1280x850px
-@media screen and (width: 1280px) and (height: 850px) {
-  // ok
-}
-
-@media screen and (width: 850px) and (height: 1280px) {
-  h2 {
-    padding: 0 0 40px 0;
-  }
-}
+// ok
